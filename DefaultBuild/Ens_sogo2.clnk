@@ -1,0 +1,32 @@
+-Input=DefaultBuild\cstart.obj
+-Input=DefaultBuild\hdwinit.obj
+-Input=DefaultBuild\main.obj
+-Input=DefaultBuild\stkinit.obj
+-Input=DefaultBuild\initialize.obj
+-Input=DefaultBuild\lcd.obj
+-SECURITY_ID=00000000000000000000
+-DEVICE=C:\Program Files\Renesas Electronics\CS+\CC\Device\RL78\Devicefile\DR5F104LE.DVF
+-DEBug
+-NOCOmpress
+-NOOPtimize
+-OUtput=DefaultBuild\Ens_sogo2.abs
+-LIBrary=C:\Program Files\Renesas Electronics\CS+\CC\CC-RL\V1.04.00\lib\rl78em4s.lib
+-LIBrary=C:\Program Files\Renesas Electronics\CS+\CC\CC-RL\V1.04.00\lib\malloc_n.lib
+-LIBrary=C:\Program Files\Renesas Electronics\CS+\CC\CC-RL\V1.04.00\lib\rl78em4r.lib
+-OCDBG=85
+-DEBUG_MONITOR=FE00-FFFF
+-USER_OPT_BYTE=60FFE8
+-LISt=DefaultBuild\Ens_sogo2.map
+-AUTO_SECTION_LAYOUT
+-ROm=.data=.dataR
+-ROm=.sdata=.sdataR
+-NOMessage
+-MEMory=High
+-NOLOgo
+-end
+-Input=DefaultBuild\Ens_sogo2.abs
+-OUtput=DefaultBuild\Ens_sogo2.mot
+-FOrm=Stype
+-NOMessage
+-exit
+
